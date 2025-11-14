@@ -16,7 +16,7 @@ const getTransactions = async (req, res, next) => {
     res.json({
       success: true,
       count: transactions.length,
-      data: transactions
+      data: transactions 
     });
     
   } catch (error) {
